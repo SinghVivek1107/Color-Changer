@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    background-color: rgb(196, 237, 126);
+}
+
+h1,h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+.color {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 30px 60px;
+    margin: 5px;
+    color: transparent;
+    border-radius: 2px;
+    border-color: black;
+    border-width: 2px;
+    
+}
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#blueviolet {
+    background-color: blueviolet; 
+}
